@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Winnona & Byron 20th Anniversary</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Winnona & Byron 20th Anniversary">
+    <meta name="keywords" content="Winnona, Nona, Byron, Davis">
+    <link rel="stylesheet" href="css/styles.css">
+   <!-- reference to jQuery Library and jQuery UI -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+   <!-- reference to the jQuery Cycle 2 plugin-->
+    <script src="jquery/cycle2.js"></script>
+    <script src="jquery/cycle2-flip.js"></script>
+    <script src="jquery/cycle2-shuffle.js"></script>
+    <!-- reference to the jQuery Cycle 2 plugin-->
+    <!-- Google Fonts Dancing Script-->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Sansita&display=swap" rel="stylesheet">
+    <!-- Google Fonts Dancing Script-->
+    <style></style>
+</head>
+
+<body>
+    <div id="page">
+        <h1 id="title">Happy 20th Anniversary</h1>
+        
+        <div class="cycle-slideshow"
+	        data-cycle-fx="flipHorz"
+		    data-cycle-timeout="5000"
+            data-cycle-speed="5000"
+		    data-cycle-caption="#adv-custom-caption"
+		    data-cycle-caption-template="{{cycleTitle}}">
+            <img src="img/01-winnona-byron.jpg" alt="" data-cycle-title="<h1>Winnona & Byron</h1>">
+            <img src="img/03-winnona-byron.jpg" alt="" data-cycle-title="<h1>Winnona & Byron</h1>">
+            <!-- empty element for caption -->
+			<div id="adv-custom-caption"><h1>Winnona & Byron</h1></div>
+        </div>      
+
+        <footer>    
+            <div>
+                <div><p id="contact-name"><strong><mark>Life Story Creations</mark></strong></p></div>          
+                <div><p id="contact-email"><strong><mark>gregscott618904@gmail.com</mark></strong></p></div>
+                <div><p id="copyright-1"></p></div>
+                <div><p id="copyright-2"><strong><mark>All Rights Reserved</mark></strong></p></div>
+            </div>
+        </footer>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

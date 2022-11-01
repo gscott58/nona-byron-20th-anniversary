@@ -1,0 +1,77 @@
+* { box-sizing: border-box;
+}
+
+#page {
+	font-family: Arial, Helvetica, sans-serif;
+	max-width: 500px;
+	margin: 15px auto;
+    padding: 15px;
+    border: 2px solid #000000;
+}
+
+img {
+    width: 100%;
+    margin: 10px auto;
+    border: 1px solid #000000;
+    border-radius: 50%;
+}
+
+#title,
+#contact-name,
+#contact-email,
+#copyright-1,
+#copyright-2
+{
+    display: none
+}
+
+h1
+ {
+    background-color: #aa0000;
+    font-family: 'Dancing Script', cursive;
+    color:         #ffffff;
+    margin-top:    5px;
+    margin-bottom: 5px;
+    margin-left:   5px;
+    margin-right:  5px;
+    padding: 2.5px;
+    border: 1px solid #000000; 
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    text-align: center;
+}
+#adv-custom-caption {
+	padding-top: 5px;
+    text-align: center;
+}
+
+#contact-name
+{
+    width:  120px;
+    margin: auto;
+    font-size: 12px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#contact-email
+{
+    width:  170px;
+    margin: auto;
+    font-size: 12px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#copyright-1
+{
+    width:  110px;
+    margin: auto;
+    font-size: 12px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#copyright-2
+{
+    width:  117px;
+    margin: auto;
+    font-size: 12px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
