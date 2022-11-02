@@ -4,7 +4,7 @@
 
     $(document).ready(function() {
 
-        $("#title").toggle(2000);
+        $("#title").toggle(3000);
         $("#contact-name").toggle(1500);
         $("#contact-email").toggle(2000);
         $("#copyright-1").toggle(2500);
