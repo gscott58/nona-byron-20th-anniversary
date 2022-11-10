@@ -14,7 +14,7 @@ img {
     margin: 10px auto;
     border: 1px solid #000000;
     border-radius: 50%;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 10px 12px 16px 0 rgba(255, 0, 0, 0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 #title,
@@ -37,7 +37,7 @@ h1
     margin-right:  5px;
     padding: 2.5px;
     border: 1px solid #000000; 
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 10px 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
     text-align: center;
 }
 #adv-custom-caption {
@@ -50,7 +50,7 @@ h1
     width:  120px;
     margin: auto;
     font-size: 12px;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 10px 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 #contact-email
@@ -58,7 +58,7 @@ h1
     width:  170px;
     margin: auto;
     font-size: 12px;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 10px 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 #copyright-1
@@ -66,7 +66,7 @@ h1
     width:  110px;
     margin: auto;
     font-size: 12px;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 10px 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 #copyright-2
@@ -74,5 +74,5 @@ h1
     width:  117px;
     margin: auto;
     font-size: 12px;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 10px 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
